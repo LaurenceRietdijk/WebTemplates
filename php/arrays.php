@@ -10,7 +10,7 @@ function display($a)
         echo "$x: $y<br>";
     }
 }
-//display($profile);
+display($profile);
 
 $myArray = array(1,4,6,4,3,6,7,9);
 $sum = 0;
@@ -52,6 +52,6 @@ function foundInArray($arr, $value)
     }
     return false;
 }
-print foundInArray($cities, "Tokyo") ? 'true' : 'false';
+//print foundInArray($cities, "Tokyo") ? 'true' : 'false';
 
 ?>

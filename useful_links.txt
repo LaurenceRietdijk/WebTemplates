@@ -1,0 +1,8 @@
+// box generator to generate CSS
+https://html-css-js.com/css/generator/box-shadow/
+
+// Free referencable Icons and such hosted by Google
+https://fonts.google.com/
+
+// Shortcuts for vsCode with Emmet
+https://docs.emmet.io/cheat-sheet/

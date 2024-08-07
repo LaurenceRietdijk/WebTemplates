@@ -28,10 +28,10 @@ function reverseString($string)
 
 function timesTable($a)
 {
-    $temp = "Multiplication Table of the Number " . $a . ":<br>";
+    $temp = "Multiplication Table of the Number " . $a . ":\n";
     for ($i = 1; $i <= 10; $i++)
     {
-        $temp = $temp . $i . " X " . $a . " = " . $a*$i . "<br>";
+        $temp = $temp . $i . " X " . $a . " = " . $a*$i . "\n";
     }
     return $temp;
 }

@@ -87,6 +87,6 @@ function calculate($a, $opp, $b)
 //echo leapYear(100) ? 'true' : 'false';
 $myArray = array(5, 6, 8, 4, 3, 3, 7);
 //echo findLargest($myArray);
-//echo calculate(10, "-", 2);
+echo calculate(10, "-", 2);
 
 ?>
