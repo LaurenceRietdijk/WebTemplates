@@ -1,0 +1,6 @@
+<!ELEMENT ProductDetail (Product+)>
+<!ELEMENT Product (ProductCode, PoductQuantity, ProductName, ProductPrice)>
+<!ELEMENT ProductCode (#PCDATA)>
+<!ELEMENT PoductQuantity (#PCDATA)>
+<!ELEMENT ProductName (#PCDATA)>
+<!ELEMENT ProductPrice (#PCDATA)>

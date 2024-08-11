@@ -1,0 +1,4 @@
+<!ELEMENT Employee (Empid, Username, Password)>
+<!ELEMENT Empid (#PCDATA)>
+<!ELEMENT Username (#PCDATA)>
+<!ELEMENT Password (#PCDATA)>

@@ -1,0 +1,8 @@
+<!ELEMENT library (issued)*>
+<!ELEMENT issued (bookid, date, borrower)>
+<!ATTLIST issued by CDATA "Granville TAFE">
+<!ELEMENT bookid (#PCDATA)*>
+<!ELEMENT date (#PCDATA)*>
+<!ELEMENT borrower (name, id)*>
+<!ELEMENT name (#PCDATA)*>
+<!ELEMENT id (#PCDATA)*>

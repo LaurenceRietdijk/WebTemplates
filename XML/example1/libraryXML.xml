@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<library>
+<issued by="Granville TAFE">
+	<bookid>B001</bookid>
+	<date>05/05/2020</date>
+	<borrower>
+		<name>Peter</name>
+		<id>001</id>
+	</borrower>
+</issued>
+<issued by="Miller TAFE">
+	<bookid>B002</bookid>
+	<date>06/05/2020</date>
+	<borrower>
+		<name>James</name>
+		<id>S001</id>
+	</borrower>
+</issued>
+<issued by="MDT">
+	<bookid>B003</bookid>
+	<date>43320</date>
+	<borrower>
+		<name>Jawdat</name>
+		<id>S002</id>
+	</borrower>
+</issued>
+</library>

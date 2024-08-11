@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE score [
+    <!ELEMENT score (batting-team, bowling-team, runs, wickets, overs-played)>
+    <!ELEMENT batting-team (#PCDATA)>
+    <!ELEMENT bowling-team (#PCDATA)>
+    <!ELEMENT runs (#PCDATA)>
+    <!ELEMENT wickets (#PCDATA)>
+    <!ELEMENT overs-played (#PCDATA)>
+]>
+<score>
+    <batting-team>India</batting-team>
+    <bowling-team>Australia</bowling-team>
+    <runs>356</runs>
+    <wickets>6</wickets>
+    <overs-played>90</overs-played>
+</score>

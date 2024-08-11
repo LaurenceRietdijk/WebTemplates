@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE library SYSTEM "library.dtd">
+
+<library>
+<issued by="Granville TAFE">
+<bookid>B001</bookid>
+<date>05/05/2020</date>
+<borrower>
+	<name>Peter</name>
+	<id>001</id>
+</borrower>
+</issued>
+<issued by="Miller TAFE">
+<bookid>B002</bookid>
+<date>06/05/2020</date>
+<borrower>
+	<name>James</name>
+	<id>S001</id>
+</borrower>
+</issued>
+</library>

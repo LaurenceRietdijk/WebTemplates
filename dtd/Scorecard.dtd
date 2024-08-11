@@ -1,0 +1,7 @@
+<!ELEMENT match (team*)>
+<!ELEMENT team (name,runs, wickets, overs-played)>
+<!ATTLIST team winner (yes|no) #REQUIRED>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT runs (#PCDATA)>
+<!ELEMENT wickets (#PCDATA)>
+<!ELEMENT overs-played (#PCDATA)>

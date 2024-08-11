@@ -6,3 +6,6 @@ https://fonts.google.com/
 
 // Shortcuts for vsCode with Emmet
 https://docs.emmet.io/cheat-sheet/
+
+// XML validation services
+https://validator.w3.org/

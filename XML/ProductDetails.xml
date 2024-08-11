@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE ProductDetail [
+    <!ELEMENT ProductDetail (Product+)>
+    <!ELEMENT Product (ProductCode, ProductQuantity, ProductName, ProductPrice)>
+    <!ELEMENT ProductCode (#PCDATA)>
+    <!ELEMENT ProductQuantity (#PCDATA)>
+    <!ELEMENT ProductName (#PCDATA)>
+    <!ELEMENT ProductPrice (#PCDATA)>
+]>
+<ProductDetail>
+    <Product>
+        <ProductCode>001</ProductCode>
+        <ProductQuantity>300</ProductQuantity>
+        <ProductName>Edible oil</ProductName>
+        <ProductPrice>90</ProductPrice>
+    </Product>
+    <Product>
+        <ProductCode>006</ProductCode>
+        <ProductQuantity>50</ProductQuantity>
+        <ProductName>Toothbrush</ProductName>
+        <ProductPrice>40</ProductPrice>
+    </Product>
+    <Product>
+        <ProductCode>009</ProductCode>
+        <ProductQuantity>100</ProductQuantity>
+        <ProductName>shampoo</ProductName>
+        <ProductPrice>20</ProductPrice>
+    </Product>
+    <Product>
+        <ProductCode>001</ProductCode>
+        <ProductQuantity>100</ProductQuantity>
+        <ProductName>Edible oil</ProductName>
+        <ProductPrice>90</ProductPrice>
+    </Product>
+    <Product>
+        <ProductCode>001</ProductCode>
+        <ProductQuantity>30</ProductQuantity>
+        <ProductName>Edible oil</ProductName>
+        <ProductPrice>90</ProductPrice>
+    </Product>
+    <Product>
+        <ProductCode>009</ProductCode>
+        <ProductQuantity>50</ProductQuantity>
+        <ProductName>shampoo</ProductName>
+        <ProductPrice>20</ProductPrice>
+    </Product>
+    <Product>
+        <ProductCode>006</ProductCode>
+        <ProductQuantity>100</ProductQuantity>
+        <ProductName>Toothbrush</ProductName>
+        <ProductPrice>40</ProductPrice>
+    </Product>
+    <Product>
+        <ProductCode>009</ProductCode>
+        <ProductQuantity>200</ProductQuantity>
+        <ProductName>shampoo</ProductName>
+        <ProductPrice>20</ProductPrice>
+    </Product>
+    <Product>
+        <ProductCode>001</ProductCode>
+        <ProductQuantity>300</ProductQuantity>
+        <ProductName>Edible oil</ProductName>
+        <ProductPrice>90</ProductPrice>
+    </Product>
+    <Product>
+        <ProductCode>009</ProductCode>
+        <ProductQuantity>80</ProductQuantity>
+        <ProductName>shampoo</ProductName>
+        <ProductPrice>20</ProductPrice>
+    </Product>
+    <Product>
+        <ProductCode>001</ProductCode>
+        <ProductQuantity>500</ProductQuantity>
+        <ProductName>Edible oil</ProductName>
+        <ProductPrice>90</ProductPrice>
+    </Product>
+    <Product>
+        <ProductCode>006</ProductCode>
+        <ProductQuantity>150</ProductQuantity>
+        <ProductName>Toothbrush</ProductName>
+        <ProductPrice>40</ProductPrice>
+    </Product>
+    <Product>
+        <ProductCode>009</ProductCode>
+        <ProductQuantity>200</ProductQuantity>
+        <ProductName>shampoo</ProductName>
+        <ProductPrice>20</ProductPrice>
+    </Product>
+    <Product>
+        <ProductCode>004</ProductCode>
+        <ProductQuantity>50</ProductQuantity>
+        <ProductName>P_Biscuits</ProductName>
+        <ProductPrice>10</ProductPrice>
+    </Product>
+    <Product>
+        <ProductCode>004</ProductCode>
+        <ProductQuantity>50</ProductQuantity>
+        <ProductName>P_Biscuits</ProductName>
+        <ProductPrice>10</ProductPrice>
+    </Product>
+    <Product>
+        <ProductCode>008</ProductCode>
+        <ProductQuantity>40</ProductQuantity>
+        <ProductName>Cornflakes</ProductName>
+        <ProductPrice>60</ProductPrice>
+    </Product>
+</ProductDetail>
