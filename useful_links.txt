@@ -1,5 +1,6 @@
-// box generator to generate CSS
+// CSS generators
 https://html-css-js.com/css/generator/box-shadow/
+https://www.cssmatic.com/
 
 // Free referencable Icons and such hosted by Google
 https://fonts.google.com/
@@ -9,3 +10,13 @@ https://docs.emmet.io/cheat-sheet/
 
 // XML validation services
 https://validator.w3.org/
+
+// Free stock images
+https://www.pexels.com
+
+//flex-box explaination
+https://www.joshwcomeau.com/css/interactive-guide-to-flexbox/#content-vs-items-4
+
+//Grid-system explaination
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout/Grid_layout_using_line-based_placement
+

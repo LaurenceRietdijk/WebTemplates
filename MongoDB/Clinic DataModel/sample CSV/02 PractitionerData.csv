@@ -1,0 +1,11 @@
+parctID,Tilte,firstname,initial,lastname,lotno,street,suburb,state,postcode,phone,mobile,practiceLicno,Dob,Gender,specaility
+10000,Dr,Mark,P,Huston,21,Fuller Street,Sunshine,NSW,2343,287657483,476352638,63738,7/07/1975,male,Medical Practitioner (Doctor or GP)
+10001,Mrs,Hilda,D,Brown,32,Argyle Street,Bonnels Bay,NSW,2264,249756544,318466453,37876,3/12/1993,female,Registered nurse
+10002,Mrs,Jennifer,J,Dunsworth,45,Dora Street,Morriset,NSW,2264,249767574,228484373,48372,4/06/1991,female,Registered nurse
+10003,Mr,Jason,D,Lithdon,43,Fowler Street,Camperdown,NSW,2050,298785645,317896453,12345,9/08/1989,male,nurse
+10004,Ms,Paula,D,Yates,89,Tableton Road,Newtown,NSW,2051,289876432,938473625,84763,7/09/1982,female,Midwife
+10005,Dr,Ludo,V,Vergenargen,27,Pembleton Place,Redfern,NSW,2049,9383737627,8372727283,84737,15/05/1986,male,Medical Practitioner (Doctor or GP)
+10006,Dr,Anne,D,Funsworth,89,Pacific Highway,St Leonards,NSW,2984,8847362839,8372688949,36271,11/12/1991,female,Psychologist
+10007,Mrs,Leslie,V,Gray,98,Dandaraga Road,Mirrabooka,NSW,2264,4736728288,4837726789,59584,11/03/1989,female,Podiatrist
+10008,Dr,Adam,J,Moody,35,Mullabinga Way,Brightwaters,NSW,2264,8476635678,2736352536,63635,23/09/1990,male,Medical practitioner (Doctor or GP)
+10009,Mr,Leslie,Y,Gray,3,Dorwington Place,Enmore,NSW,2048,8473763678,4484837289,38277,11/04/1991,male,nurse

@@ -1,0 +1,45 @@
+{
+  "firstName": "Alice",
+  "lastName": "Johnson",
+  "email": "alice.johnson@example.com",
+  "address": {
+    "street": "101 Maple Avenue",
+    "city": "Springfield",
+    "state": "CA",
+    "zip": "98765"
+  }
+}
+
+{
+  "firstName": "Bob",
+  "lastName": "Johnson",
+  "address": {
+    "street": "102 Maple Avenue",
+    "city": "Springfield",
+    "state": "CA",
+    "zip": "98765"
+  }
+}
+
+db.customer.insert({
+  "firstName": "Carol",
+  "lastName": "Smith",
+  "email": "carol.smith@example.com",
+  "address": {
+    "street": "103 Oak St",
+    "city": "Somecity",
+    "state": "CA",
+    "zip": "12345"
+  }
+})
+
+db.customer.insert({
+  "firstName": "Dan",
+  "lastName": "Smith",
+  "address": {
+    "street": "104 Oak St",
+    "city": "Somecity",
+    "state": "CA",
+    "zip": "12345"
+  }
+})

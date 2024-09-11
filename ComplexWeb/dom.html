@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Document object Model</title>
+    <style>
+        .page-header{
+            background-color: crimson;
+            color: #fff;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body><div class="page-header" id="pageHeader">
+    <h1>Page Header</h1>
+</div>
+
+<p>
+    The Document Object Model is a way to manipulate the structure and style of a HTML page. We use JavaScript to alter the structure of the page and how the browser sets the page.
+</p>
+<!-- JavaScript-->
+ <script>
+    //Getting an Element by ID
+    document.getElementById("pageHeader");
+
+    //Getting an Element by Class
+    document.getElementsByClassName("page-header");
+
+    //Getting an Element by Class
+    document.getElementsByTagName("div");
+
+    //Using CSS Selectors
+    document.querySelector('.page-header');
+
+    var handle_click = function(event){
+        alert("Hello" + event);
+    }
+
+    var btn = document.querySelector('.page-header');
+    btn.addEventListener('mouseenter', handle_click);
+
+ </script>
+</body>
+</html>

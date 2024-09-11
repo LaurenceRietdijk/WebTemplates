@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Insert New Patient</title>
+</head>
+<body>
+<h1>Insert New Patient</h1>
+<form id="insertForm">
+    <label for="firstname">First Name:</label>
+    <input type="text" id="firstname" name="firstname"><br><br>
+
+    <label for="lastname">Last Name:</label>
+    <input type="text" id="lastname" name="lastname"><br><br>
+
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" name="dob"><br><br>
+
+    <label for="gender">Gender:</label>
+    <select id="gender" name="gender">
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select><br><br>
+
+    <button type="button" onclick="insertPatient()">Submit</button>
+</form>
+
+<script>
+function insertPatient() {
+    const formData = {
+        firstname: document.getElementById('firstname').value,
+        lastname: document.getElementById('lastname').value,
+        dob: document.getElementById('dob').value,
+        gender: document.getElementById('gender').value
+    };
+
+    fetch('http://localhost:3000/patients', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(formData)
+    })
+    .then(response => response.json())
+    .then(data => {
+        console.log('Success:', data);
+        alert('Patient inserted successfully!');
+    })
+    .catch((error) => {
+        console.error('Error:', error);
+        alert('Error inserting patient');
+    });
+}
+</script>
+</body>
+</html>

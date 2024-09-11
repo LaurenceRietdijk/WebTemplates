@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML Forms</title>
+    <style>
+ 
+body{
+    background-color: #4F345A;
+}
+
+form{
+    max-width: 600px;
+    margin:20px auto;
+    background-color: #E8D7F1;
+    padding:20px;
+    border:1px solid black;
+    border-radius: 10px;
+    box-shadow: 19px 10px 60px -33px rgba(0,0,0,0.75);
+}
+fieldset{
+    border:none;
+    margin-bottom: 20px;
+    padding: 0;
+}
+legend{
+    font-size: 1.25em;
+    margin-bottom: 15px;
+    color:#000;
+}
+.form-group{
+    position: relative;
+    margin-bottom: 20px;
+}
+
+label{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+input[type="text"], 
+input[type="email"],
+input[type="number"]{
+    width:100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 1em;
+    border:1px solid #ccc;
+}
+input[type="text"]:focus,
+input[type="email"]:focus{
+    border-color:#4F345A;
+    outline: none;
+}
+input:invalid{
+    border-color: #dc3545;
+}
+input:valid{
+    border-color: #27da7a;
+}
+button{
+    background-color: #4F345A;
+    color:#fff;
+    border:none;
+    padding: 10px 15px;
+    font-size:1rem;
+    margin-right: 10px;
+    float:right;
+}
+button:hover{
+    background-color: #5D4E6D;
+}
+button:disabled{
+    background-color: #D3BCCC;
+    cursor: not-allowed;
+}
+
+/* Error Message */
+input:invalid ~ .error-message{
+    color:#dc3545;
+    font-size: 0.8em;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.error-message{
+    display: none;
+    color: #dc3545;
+    font-size: 0.8em;
+    margin-bottom: 10px;
+}
+.tooltip{
+    display: none;
+    position: absolute;
+    background-color: #D3BCCC;
+    padding:5px;
+    border-radius: 5px;
+    font-size: 0.8em;
+    width: 200px;
+    top: 100%;
+    left:0;
+    margin-top:-10px;
+    z-index:10
+
+}
+.form-group:hover .tooltip,
+.form-group:focus + .tooltip{
+    display: block;
+}
+</style>
+</head>
+<body>
+    <form action="/submit" id="advanced-form">
+        <!-- Step 1: Personal Information-->
+         <Fieldset id = "step1">
+            <legend>Personal Information</legend>
+
+            <!-- First Name Group-->
+            <div class="form-group">
+                <label for="first-name">First Name</label>
+                <input type="text" id="first-name" name="first-name" tabindex="1" required aria-required="true">
+                <span class="tooltip" id ="tooltip-first-name">Enter your first name as appears on your drivers licence</span>
+            </div>
+
+            <!-- Last Name Group-->
+            <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text" id="last-name" name="last-name" tabindex="2" required aria-required="true">
+                <span class="tooltip" id="tooltip-last-name">Enter your Last name as appears on your drivers licence</span>
+            </div>
+
+            <!-- Email Group-->
+            <div class="form-group">
+                <label for="email-address">Email Address</label>
+                <input type="email" id="email-address" name="email-address" tabindex="3" required aria-required="true">
+                <span class="tooltip" id="tooltip-email-address">Enter valid email address. We will send you confirmation</span>
+            </div>
+
+            <button type="button" onclick="showStep(2)" tabindex="4">Next</button>
+         </Fieldset>
+
+         <!-- step 2: Address-->
+        <fieldset style="display: none;" id = "step2">
+            <legend>Address</legend>
+
+                <!-- street Group-->
+                <div class="form-group">
+                    <label for="street">Street</label>
+                    <input type="text" id="street" tabindex="5" required aria-required="true">
+                    <span class="tooltip" id="tooltip-street">Enter your street address</span>
+                </div>
+
+                <!-- suburb Group-->
+                <div class="form-group">
+                    <label for="suburb">Suburb</label>
+                    <input type="text" id="suburb" tabindex="6" required aria-required="true">
+                    <span class="tooltip" id="tooltip-suburb">Enter your suburb</span>
+                </div>
+
+                <!-- state Group-->
+                <div class="form-group">
+                    <label for="state">State</label>
+                    <input type="text" id="state" tabindex="7" required aria-required="true">
+                    <span class="tooltip" id="tooltip-state">Enter your state</span>
+                </div>
+
+                <!-- postcode Group-->
+                <div class="form-group">
+                    <label for="postcode">PostCode</label>
+                    <input type="text" id="postcode" tabindex="8" required aria-required="true">
+                    <span class="tooltip" id="tooltip-state">Enter your state</span>
+                </div>
+
+                <button type="button" onclick="showStep(1)" tabindex="9">Back</button>
+                <button type="submit" tabindex="10">Submit</button>
+
+        </fieldset>
+    </form>
+
+    <script>
+    function showStep(stepNo) {
+        document.querySelectorAll('fieldset').forEach(fieldset => {
+            fieldset.style.display = 'none';
+        });
+
+        document.getElementById(`step${stepNo}`).style.display = 'block';
+    }        
+    </script>
+</body>
+</html>

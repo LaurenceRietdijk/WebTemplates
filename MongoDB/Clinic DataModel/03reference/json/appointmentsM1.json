@@ -1,0 +1,55 @@
+[{
+  "appointmentID": "A1000",
+  "date": {
+    "$date": "2024-01-15T00:00:00.000Z"
+  },
+  "time": "10:00 AM",
+  "practitionerID": "10000",
+  "patientID": "10000",
+  "purpose": "Routine Check-up",
+  "notes": "Annual physical examination."
+},
+{
+  "appointmentID": "A1001",
+  "date": {
+    "$date": "2024-01-20T00:00:00.000Z"
+  },
+  "time": "02:00 PM",
+  "practitionerID": "10001",
+  "patientID": "10001",
+  "purpose": "Consultation",
+  "notes": "Discuss symptoms of chronic fatigue."
+},
+{
+  "appointmentID": "A1002",
+  "date": {
+    "$date": "2024-01-22T00:00:00.000Z"
+  },
+  "time": "11:00 AM",
+  "practitionerID": "10002",
+  "patientID": "10002",
+  "purpose": "Follow-up",
+  "notes": "Follow-up on blood test results."
+},
+{
+  "appointmentID": "A1003",
+  "date": {
+    "$date": "2024-02-05T00:00:00.000Z"
+  },
+  "time": "09:30 AM",
+  "practitionerID": "10003",
+  "patientID": "10003",
+  "purpose": "Vaccination",
+  "notes": "Scheduled vaccination for travel."
+},
+{
+  "appointmentID": "A1004",
+  "date": {
+    "$date": "2024-02-10T00:00:00.000Z"
+  },
+  "time": "01:00 PM",
+  "practitionerID": "10004",
+  "patientID": "10004",
+  "purpose": "Emergency",
+  "notes": "Urgent consultation due to acute pain."
+}]

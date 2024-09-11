@@ -1,0 +1,12 @@
+How to Apply Schema in MongoDB Compass
+
+1.Open MongoDB Compass and connect to your database.
+2. Navigate to the database where you want to add the <collection> collection.
+3. If the collection does not already exist, you can create it by selecting Create Collection. If it already exists, click on the collection name.
+4. In the collection view, go to the Validation tab.
+5. You will find an area to enter a validation rule. Copy and paste the JSON schema shown above into this field.
+6. You can choose the level of validation:
+	Off: No validation.
+	Moderate: Only validates new documents or updates to existing documents.
+	Strict: Validates all inserts and updates.
+7.After setting up the schema, click Save to apply these validation rules.

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid Framework</title>
+    <style>
+        .container{
+            background-color: tomato;
+            padding: 10px;
+            display: grid;
+            /* grid-template-columns: 25% 5rem 1fr; */
+            /* grid-template-columns: minmax(auto, 45%) 1fr 3em; */
+            /* grid-template-columns: repeat(4,25%); */
+            grid-template-columns: 35px repeat(2, 1fr) 100px;
+            /* grid-column-gap: 50px; */
+            /* column-gap: 10px; */
+            gap: 10px 1em;
+        }
+        div{
+            background-color: cyan;
+
+            font-size: 3rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+        <div>A</div>
+        <div>B</div>
+        <div>C</div>
+        <div>D</div>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Find Patient</title>
+</head>
+<body>
+<h1>Find Patient</h1>
+<form id="findForm">
+    <label for="patientId">Patient ID:</label>
+    <input type="text" id="patientId" name="patientId"><br><br>
+
+    <button type="button" onclick="findPatient()">Find Patient</button>
+</form>
+
+<script>
+function findPatient() {
+    const patientId = document.getElementById('patientId').value;
+
+    fetch(`http://localhost:3000/patients/${patientId}`)
+    .then(response => response.json())
+    .then(data => {
+        console.log('Patient Details:', data);
+        alert('Patient found! Check console for details.');
+    })
+    .catch((error) => {
+        console.error('Error:', error);
+        alert('Patient not found');
+    });
+}
+</script>
+</body>
+</html>

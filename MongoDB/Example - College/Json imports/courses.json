@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "642ba12af2c245420c0db91e"
+  },
+  "name": "Computer Science 101",
+  "instructor": "Dr. Smith",
+  "credits": 3
+},{
+  "_id": {
+    "$oid": "642ba12bf2c245420c0db91f"
+  },
+  "name": "Biology 101",
+  "instructor": "Dr. Jones",
+  "credits": 4
+},{
+  "_id": {
+    "$oid": "642ba12bf2c245420c0db920"
+  },
+  "name": "History 101",
+  "instructor": "Dr. Brown",
+  "credits": 3
+}]

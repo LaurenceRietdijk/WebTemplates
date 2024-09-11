@@ -1,0 +1,73 @@
+[
+    {
+      "practiceID": "10000",
+      "title": "Dr",
+      "firstname": "Mark",
+      "lastname": "Huston",
+      "appointments": [
+        {
+          "date": "2024-01-15",
+          "time": "10:00 AM",
+          "patientID": "10000"
+        },
+        {
+          "date": "2024-01-20",
+          "time": "02:00 PM",
+          "patientID": "10001"
+        }
+      ]
+    },
+    {
+      "practiceID": "10001",
+      "title": "Mrs",
+      "firstname": "Hilda",
+      "lastname": "Brown",
+      "appointments": [
+        {
+          "date": "2024-01-18",
+          "time": "09:00 AM",
+          "patientID": "10002"
+        }
+      ]
+    },
+    {
+      "practiceID": "10002",
+      "title": "Mrs",
+      "firstname": "Jennifer",
+      "lastname": "Dunsworth",
+      "appointments": [
+        {
+          "date": "2024-01-22",
+          "time": "11:00 AM",
+          "patientID": "10003"
+        }
+      ]
+    },
+    {
+      "practiceID": "10003",
+      "title": "Mr",
+      "firstname": "Jason",
+      "lastname": "Lithdon",
+      "appointments": [
+        {
+          "date": "2024-02-05",
+          "time": "11:30 AM",
+          "patientID": "10004"
+        }
+      ]
+    },
+    {
+      "practiceID": "10004",
+      "title": "Ms",
+      "firstname": "Paula",
+      "lastname": "Yates",
+      "appointments": [
+        {
+          "date": "2024-02-10",
+          "time": "01:00 PM",
+          "patientID": "10005"
+        }
+      ]
+    }
+  ]
+  

@@ -1,0 +1,44 @@
+{
+  "$jsonSchema": {
+    "bsonType": "object",
+    "required": ["firstName", "lastName", "email", "address"],
+    "properties": {
+      "firstName": {
+        "bsonType": "string",
+        "description": "must be a string and is required"
+      },
+      "lastName": {
+        "bsonType": "string",
+        "description": "must be a string and is required"
+      },
+      "email": {
+        "bsonType": "string",
+        "pattern": "^.+@.+\..+$",
+        "description": "must be a string and match the email pattern"
+      },
+      "address": {
+        "bsonType": "object",
+        "required": ["street", "city", "state", "zip"],
+        "properties": {
+          "street": {
+            "bsonType": "string",
+            "description": "must be a string and is required"
+          },
+          "city": {
+            "bsonType": "string",
+            "description": "must be a string and is required"
+          },
+          "state": {
+            "bsonType": "string",
+            "description": "must be a string and is required"
+          },
+          "zip": {
+            "bsonType": "string",
+            "description": "must be a string and is required"
+          }
+        },
+        "description": "must be an object with street, city, state, and zip fields"
+      }
+    }
+  }
+}

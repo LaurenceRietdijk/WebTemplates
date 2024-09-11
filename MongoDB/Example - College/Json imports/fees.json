@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "642ba145f2c245420c0db921"
+  },
+  "student": "John Doe",
+  "semester": "Spring 2022",
+  "amount": 5000
+},{
+  "_id": {
+    "$oid": "642ba146f2c245420c0db922"
+  },
+  "student": "Jane Smith",
+  "semester": "Fall 2021",
+  "amount": 4500
+},{
+  "_id": {
+    "$oid": "642ba146f2c245420c0db923"
+  },
+  "student": "Bob Johnson",
+  "semester": "Summer 2022",
+  "amount": 5500
+}]

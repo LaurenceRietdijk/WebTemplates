@@ -1,0 +1,120 @@
+[
+    {
+        "orderDate": {"$date": "2022-10-01"},
+        "customer": {
+            "firstName": "John",
+            "lastName": "Doe",
+            "email": "john.doe@example.com"
+        },
+        "total": 145.65,
+        "items": [
+            {
+                "product": {
+                    "name": "Red Shirt",
+                    "price": 29.99
+                },
+                "quantity": 2
+            },
+            {
+                "product": {
+                    "name": "Blue Jeans",
+                    "price": 49.99
+                },
+                "quantity": 1
+            },
+            {
+                "product": {
+                    "name": "Black Shoes",
+                    "price": 35.67
+                },
+                "quantity": 2
+            }
+        ]
+    },
+    {
+        "orderDate": {"$date": "2022-10-02"},
+        "customer": {
+            "firstName": "Jane",
+            "lastName": "Smith",
+            "email": "jane.smith@example.com"
+        },
+        "total": 99.99,
+        "items": [
+            {
+                "product": {
+                    "name": "Green Jacket",
+                    "price": 69.99
+                },
+                "quantity": 1
+            },
+            {
+                "product": {
+                    "name": "Brown Boots",
+                    "price": 30.00
+                },
+                "quantity": 1
+            }
+        ]
+    },
+    {
+        "orderDate": {"$date": "2022-10-03"},
+        "customer": {
+            "firstName": "Alice",
+            "lastName": "Wong",
+            "email": "alice.wong@example.com"
+        },
+        "total": 130.00,
+        "items": [
+            {
+                "product": {
+                    "name": "Silver Watch",
+                    "price": 65.00
+                },
+                "quantity": 2
+            }
+        ]
+    },
+    {
+        "orderDate": {"$date": "2022-10-04"},
+        "customer": {
+            "firstName": "Bob",
+            "lastName": "Marley",
+            "email": "bob.marley@example.com"
+        },
+        "total": 200.00,
+        "items": [
+            {
+                "product": {
+                    "name": "Leather Wallet",
+                    "price": 100.00
+                },
+                "quantity": 2
+            }
+        ]
+    },
+    {
+        "orderDate": {"$date": "2022-10-05"},
+        "customer": {
+            "firstName": "Charlie",
+            "lastName": "Brown",
+            "email": "charlie.brown@example.com"
+        },
+        "total": 75.50,
+        "items": [
+            {
+                "product": {
+                    "name": "White Socks",
+                    "price": 15.50
+                },
+                "quantity": 2
+            },
+            {
+                "product": {
+                    "name": "Tennis Racquet",
+                    "price": 44.50
+                },
+                "quantity": 1
+            }
+        ]
+    }
+]

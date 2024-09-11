@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Flexbox</title>
+    <style>
+        .container{
+            background-color: rgb(109, 109, 241);
+        }
+        header{
+            display: flex;
+            background-color: cadetblue;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .logo{
+            width: 100px;
+            height: 100px;
+            background-color: lightseagreen;
+        }
+        nav{
+            background-color: aquamarine;
+        }
+        .hero{
+            background-color: blueviolet;
+            padding: 30px;
+        }
+        .feature-technology{
+            display: flex;
+            justify-content: center;
+            gap: 30px; 
+        }
+        .feature-technology section{
+            background-color: chartreuse;
+            padding: 10px;
+            border: 2px dotted red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h2 class="logo">Logo</h2>
+            <nav><a href="#">Home</a>
+                <a href="#">Products</a>
+                <a href="#">Services</a>
+                <a href="#">Contect</a>
+                <a href="#">About</a></nav>
+        </header>
+
+        <div class="hero">
+            <p>Show Your Featured Product or service here</p>
+        </div>
+
+        <article class="feature-technology">
+            <section>
+                <h2>Hello</h2>
+            </section>
+            <section>
+                <h2>Hello</h2>
+            </section>
+            <section>
+                <h2>Hello</h2>
+            </section>
+        </article>
+
+        <article class="featured-brand">
+            <h2>Welcome to Global Brands</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime delectus voluptates eveniet perspiciatis aut error! Vitae, eos asperiores similique consequuntur sequi voluptatibus ut deleniti commodi fugit, beatae illo fugiat dolores!</p>
+        </article>
+
+        <footer>
+            <p>&copy;2024 Global Brands</p>
+        </footer>
+
+
+    </div>
+</body>
+</html>

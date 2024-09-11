@@ -1,0 +1,4 @@
+{
+    "DBURI": "mongodb+srv://LaurenceRietdijk:tacyoEKKnwYtSJ5k@atlascluster.k4uya.mongodb.net/?retryWrites=true&w=majority&appName=AtlasCluster",
+    "JWT_SECRET": "f905bc0700cbe190b25503474cc528817deb7e064f4c2d71b21462b1730cc883dfb55b02"
+}

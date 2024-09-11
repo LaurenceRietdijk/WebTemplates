@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "642ba15ef2c245420c0db927"
+  },
+  "name": "John Doe",
+  "age": 20,
+  "major": "Computer Science"
+},{
+  "_id": {
+    "$oid": "642ba15ff2c245420c0db928"
+  },
+  "name": "Jane Smith",
+  "age": 22,
+  "major": "Biology"
+},{
+  "_id": {
+    "$oid": "642ba15ff2c245420c0db929"
+  },
+  "name": "Bob Johnson",
+  "age": 19,
+  "major": "History"
+}]
